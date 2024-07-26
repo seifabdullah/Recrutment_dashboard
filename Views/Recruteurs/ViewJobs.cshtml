@@ -1,0 +1,53 @@
+﻿@model List<Recrutement_plateforme.Models.OffresModels.Job>
+
+@{
+    ViewData["Title"] = "View Jobs";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div>
+    @ViewData["Message"]
+</div>
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Competences Required</th>
+                <th>Responsibilities</th>
+                <th>Salary</th>
+                <th>Published At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var job in Model)
+            {
+                <tr>
+                    <td>@job.Recruteur.CompanyName</td>
+                    <td>@job.Title</td>
+                    <td>@job.Description</td>
+                    <td>@job.CompetencesRequired</td>
+                    <td>@job.Responsibilities</td>
+                    <td>@job.Salary</td>
+                    <td>@job.PublishedAt</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@job.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@job.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No jobs are currently available for your company.</p>
+}
+
+<div class="mt-3">
+    <a href="@Url.Action("Welcome", "Recruteurs")" class="btn btn-primary">Back to Dashboard</a>
+</div>

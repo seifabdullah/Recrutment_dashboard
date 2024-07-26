@@ -1,0 +1,47 @@
+﻿@model Recrutement_plateforme.Models.OffresModels.Candidate
+
+<h2>Candidate Details</h2>
+
+<div>
+    <dl class="row">
+        <!-- Display Candidate properties -->
+        <dt class="col-sm-2">Name:</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Last Name:</dt>
+        <dd class="col-sm-10">@Model.Prenom</dd>
+
+        <dt class="col-sm-2">Email:</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+
+        <dt class="col-sm-2">Phone:</dt>
+        <dd class="col-sm-10">@Model.Phone</dd>
+
+        <dt class="col-sm-2">LinkedIn:</dt>
+        <dd class="col-sm-10">@Model.LinkedInUrl</dd>
+
+        <!-- Add more Candidate properties as needed -->
+        <!-- Display CompleteProfile properties -->
+        <dt class="col-sm-2">Experience:</dt>
+        <dd class="col-sm-10">@Model.CompleteProfile?.Experience</dd>
+
+        <dt class="col-sm-2">Education:</dt>
+        <dd class="col-sm-10">@Model.CompleteProfile?.Education</dd>
+
+        <dt class="col-sm-2">Competencies:</dt>
+        <dd class="col-sm-10">@Model.CompleteProfile?.Competencies</dd>
+
+        <dt class="col-sm-2">Skills:</dt>
+        <dd class="col-sm-10">@Model.CompleteProfile?.Skills</dd>
+
+        <dt class="col-sm-2">Languages:</dt>
+        <dd class="col-sm-10">@Model.CompleteProfile?.Languages</dd>
+
+        <dt class="col-sm-2">Hobbies:</dt>
+        <dd class="col-sm-10">@Model.CompleteProfile?.Education</dd>
+
+        <!-- Add more CompleteProfile properties as needed -->
+    </dl>
+</div>
+
+<a asp-action="ViewJobApplications" asp-controller="Recruteurs" class="btn btn-secondary">Back </a>

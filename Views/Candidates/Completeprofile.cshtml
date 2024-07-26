@@ -1,0 +1,72 @@
+﻿@model Recrutement_plateforme.Models.OffresModels.CompleteProfile
+
+@{
+    ViewData["Title"] = "Complete Your Profile";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">@ViewData["Title"]</h2>
+
+                    <form  asp-controller="Candidates" asp-action="CompleteProfile" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <!-- Experience Input -->
+                        <div class="form-group">
+                            <label asp-for="Experience" class="control-label">Experience</label>
+                            <input asp-for="Experience" class="form-control" />
+                            <span asp-validation-for="Experience" class="text-danger"></span>
+                        </div>
+
+                        <!-- Education Input -->
+                        <div class="form-group">
+                            <label asp-for="Education" class="control-label">Education</label>
+                            <input asp-for="Education" class="form-control" />
+                            <span asp-validation-for="Education" class="text-danger"></span>
+                        </div>
+
+                        <!-- Skills Input -->
+                        <div class="form-group">
+                            <label asp-for="Skills" class="control-label">Skills</label>
+                            <input asp-for="Skills" class="form-control" />
+                            <span asp-validation-for="Skills" class="text-danger"></span>
+                        </div>
+
+                        <!-- Competencies Input -->
+                        <div class="form-group">
+                            <label asp-for="Competencies" class="control-label">Competencies</label>
+                            <input asp-for="Competencies" class="form-control" />
+                            <span asp-validation-for="Competencies" class="text-danger"></span>
+                        </div>
+
+                        <!-- Languages Input -->
+                        <div class="form-group">
+                            <label asp-for="Languages" class="control-label">Languages</label>
+                            <input asp-for="Languages" class="form-control" />
+                            <span asp-validation-for="Languages" class="text-danger"></span>
+                        </div>
+
+                        <!-- Hobbies Input -->
+                        <div class="form-group">
+                            <label asp-for="Hobbies" class="control-label">Hobbies</label>
+                            <input asp-for="Hobbies" class="form-control" />
+                            <span asp-validation-for="Hobbies" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">Complete Profile</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-3 text-center">
+    <a href="@Url.Action("Welcome", "Candidates")" class="btn btn-primary">Back to Dashboard</a>
+</div>

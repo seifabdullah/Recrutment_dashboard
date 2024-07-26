@@ -1,0 +1,46 @@
+﻿@model Recrutement_plateforme.Models.OffresModels.Candidate
+
+@{
+    ViewData["Title"] = "Welcome, Candidate!";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <div class="card text-center">
+                <div class="card-body">
+                    <h2 class="card-title">@ViewData["Title"]</h2>
+                    <p class="card-text lead">We're excited to have you on board! Explore the opportunities and manage your profile below.</p>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <a href="@Url.Action("ViewJobs", "Candidates")" class="btn btn-primary btn-block btn-lg">Explore Jobs</a>
+                        </div>
+
+                        @* Check if Model.Id is not null before creating the link for JobStatus *@
+                        @if (Model.Id != null)
+                        {
+                            <div class="col-md-6 mb-3">
+                                <a href="@Url.Action("JobStatus", "Candidates")" class="btn btn-success btn-block btn-lg">Job Status</a>
+                            </div>
+                        }
+
+                        <div class="col-md-6 mb-3">
+                            <a href="@Url.Action("ViewProfile", "Candidates")" class="btn btn-info btn-block btn-lg">View Profile</a>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <a href="@Url.Action("CompleteProfile", "Candidates")" class="btn btn-warning btn-block btn-lg">Complete Your Profile</a>
+                        </div>
+
+                        <div class="col-md-12">
+                            <a href="@Url.Action("Logout", "Candidates")" class="btn btn-danger btn-block btn-lg">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

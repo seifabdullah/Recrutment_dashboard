@@ -1,0 +1,55 @@
+﻿@model Recrutement_plateforme.Models.OffresModels.Job
+
+@{
+    ViewData["Title"] = "View Job";
+}
+
+<div class="container mt-5">
+    <h1>@ViewData["Title"]</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">@Html.DisplayFor(model => model.Title)</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-2">Description:</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+
+                <dt class="col-sm-2">Competences Required:</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.CompetencesRequired)</dd>
+
+                <dt class="col-sm-2">Responsibilities:</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Responsibilities)</dd>
+
+                <dt class="col-sm-2">Salary:</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Salary)</dd>
+
+                <dt class="col-sm-2">Published At:</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.PublishedAt)</dd>
+
+                <dt class="col-sm-2">Recruteur:</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Recruteur.CompanyName)</dd>
+
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <form method="post" action="@Url.Action("Apply", "Candidates")">
+            <input type="hidden" name="jobId" value="@Model.Id" />
+            <button type="submit" class="btn btn-success" onclick="showApplyMessage()">Apply</button>
+        </form>
+    </div>
+
+    <div class="mt-3 text-center">
+        <a href="@Url.Action("Welcome", "Candidates")" class="btn btn-primary">Back to Dashboard</a>
+    </div>
+</div>
+<script>
+    function showApplyMessage() {
+        
+            alert("Application submitted successfully!");
+        
+    }
+</script>

@@ -1,0 +1,96 @@
+﻿@using Recrutement_plateforme.Enum
+@model List<Recrutement_plateforme.Models.OffresModels.CandidateJob>
+
+@if (Model != null && Model.Any())
+{
+    <form method="post" action="@Url.Action("ChangeApplicationStatus", "Recruteurs")">
+        @Html.AntiForgeryToken()
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Candidate Name</th>
+                        <th>Job Title</th>
+                        <th>Status</th>
+                        <th>Change Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var application in Model)
+                    {
+                        <tr>
+                            <td>@application.Candidate.Name</td>
+                            <td>@application.Job.Title</td>
+                            <td>@application.Status</td>
+                            <td>
+                                @Html.DropDownList($"changeRequests[{application.CandidateId}].Status",
+                                         new List<SelectListItem>
+                        {
+                        new SelectListItem(ApplicationStatus.Pending.ToString(), ApplicationStatus.Pending.ToString()),
+                        new SelectListItem(ApplicationStatus.Accepted.ToString(), ApplicationStatus.Accepted.ToString()),
+                        new SelectListItem(ApplicationStatus.Rejected.ToString(), ApplicationStatus.Rejected.ToString())
+                        },
+                                         new { @class = "form-control" })
+
+                                <input type="hidden" name="changeRequests[@application.CandidateId].CandidateId" value="@application.CandidateId" />
+                            </td>
+                            <td>
+                                <button type="button" onclick="submitStatus(@application.CandidateId)" class="btn btn-primary">Change Status</button>
+                                <a href="@Url.Action("ViewCandidateDetails", "Recruteurs", new { candidateId = application.CandidateId })" class="btn btn-info">View Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </form>
+
+    <div class="mt-3">
+        <a href="@Url.Action("Welcome", "Recruteurs")" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+
+    <script>
+        async function submitStatus(candidateId) {
+            try {
+                const status = document.querySelector(`#changeRequests_${candidateId}__Status`).value;
+
+                const requestData = {
+                    changeRequests: [{
+                        CandidateId: candidateId,
+                        Status: status
+                    }]
+                };
+
+                const response = await fetch('@Url.Action("ChangeApplicationStatus", "Recruteurs")', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    const errorText = await response.text();
+                    console.error('Failed to change status. Error:', errorText);
+                    alert('Failed to change status. Please try again.');
+                }
+            } catch (error) {
+                console.error('An unexpected error occurred:', error);
+                alert('An unexpected error occurred. Please try again.');
+            }
+        }
+
+
+
+
+    </script>
+}
+else
+{
+    <p>No job applications found.</p>
+}

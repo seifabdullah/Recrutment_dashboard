@@ -1,0 +1,207 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Recrutement_plateforme
+build_property.RootNamespace = Recrutement_plateforme
+build_property.ProjectDir = C:\Users\msi\Desktop\Projet .Net\Recrutement_plateforme\Recrutement_plateforme\Recrutement_plateforme\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\msi\Desktop\Projet .Net\Recrutement_plateforme\Recrutement_plateforme\Recrutement_plateforme
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CandidateJobs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlSm9ic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CandidateJobs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlSm9ic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CandidateJobs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlSm9ic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CandidateJobs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlSm9ic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CandidateJobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlSm9ic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Completeprofile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xDb21wbGV0ZXByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/JobStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xKb2JTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/UpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xVcGRhdGVQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/ViewJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xWaWV3Sm9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/ViewJobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xWaWV3Sm9icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/ViewProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1xWaWV3UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Candidates/welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlc1x3ZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CompleteProfiles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxldGVQcm9maWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CompleteProfiles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxldGVQcm9maWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CompleteProfiles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxldGVQcm9maWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CompleteProfiles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxldGVQcm9maWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/CompleteProfiles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxldGVQcm9maWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Jobs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Jobs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Jobs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Jobs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Jobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xyZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/ViewCandidateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xWaWV3Q2FuZGlkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/ViewJobApplications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xWaWV3Sm9iQXBwbGljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/ViewJobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xWaWV3Sm9icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Recruteurs/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjcnV0ZXVyc1xXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/msi/Desktop/Projet .Net/Recrutement_plateforme/Recrutement_plateforme/Recrutement_plateforme/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b02rp47cov

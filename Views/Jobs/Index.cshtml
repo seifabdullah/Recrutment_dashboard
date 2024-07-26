@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Recrutement_plateforme.Models.OffresModels.Job>
+
+@{
+    ViewData["Title"] = "Job Listings";
+}
+
+<div class="container mt-4">
+    <h1>Job Listings</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-outline-primary">Create New Job</a>
+    </p>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Title)</th>
+                            <th>@Html.DisplayNameFor(model => model.Description)</th>
+                            <th>@Html.DisplayNameFor(model => model.CompetencesRequired)</th>
+                            <th>@Html.DisplayNameFor(model => model.Responsibilities)</th>
+                            <th>@Html.DisplayNameFor(model => model.Salary)</th>
+                            <th>@Html.DisplayNameFor(model => model.PublishedAt)</th>
+                            <th>@Html.DisplayNameFor(model => model.Recruteur)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                <td>@Html.DisplayFor(modelItem => item.CompetencesRequired)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Responsibilities)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Salary)</td>
+                                <td>@Html.DisplayFor(modelItem => item.PublishedAt)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Recruteur.CompanyName)</td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success btn-sm">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mt-3">
+    <a href="@Url.Action("Welcome", "Recruteurs")" class="btn btn-secondary">Back to Dashboard</a>
+</div>

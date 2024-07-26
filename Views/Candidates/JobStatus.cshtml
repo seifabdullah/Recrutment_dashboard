@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Recrutement_plateforme.Models.OffresModels.CandidateJob>
+
+@{
+    ViewData["Title"] = "Job Status";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <h2 class="text-center">@ViewData["Title"]</h2>
+
+            @if (Model != null && Model.Any())
+            {
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Job Title</th>
+                            <th>Company Name</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var application in Model)
+                        {
+                            <tr>
+                                <td>@(application.Job != null ? application.Job.Title : "N/A")</td>
+                                <td>@application.Job?.Recruteur?.CompanyName</td>
+                                <td>@application.Status</td>
+                                <td>
+                                    <button class="btn btn-danger" onclick="cancelApplication('@application?.Job?.Id')">Cancel</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="mt-4">No job applications found.</p>
+            }
+
+            <div class="mt-3 text-center">
+                <a href="@Url.Action("Welcome", "Candidates")" class="btn btn-primary">Back to Dashboard</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        function cancelApplication(jobId) {
+            $.post("@Url.Action("CancelApplication", "Candidates")", { jobId: jobId })
+                .done(function () {
+                    alert("Application canceled successfully.");
+                    location.reload();
+                })
+                .fail(function () {
+                    alert("Failed to cancel the application. Please try again.");
+                });
+        }
+</script>
+

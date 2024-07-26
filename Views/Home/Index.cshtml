@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+
+            <!-- Content Section -->
+            <h1 class="display-4">Welcome to Our Job Platform</h1>
+            <p class="lead">Explore exciting job opportunities and kickstart your career journey with us.</p>
+
+            <!-- Login Buttons -->
+            <div class="mt-4">
+                <a href="@Url.Action("Login", "Recruteurs")" class="btn btn-primary btn-lg mr-3">Recruiters Login</a>
+                <a href="@Url.Action("Login", "Candidates")" class="btn btn-success btn-lg">Candidate Login</a>
+            </div>
+
+        </div>
+    </div>
+</div>
